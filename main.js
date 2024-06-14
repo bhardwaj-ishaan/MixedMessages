@@ -5,4 +5,25 @@ const fortuneArr = ["A dream you have will come true.", "Hidden in a valley besi
 const codingArr = ["Coding has over 700 languages.", "Coding will soon be as important as reading", "The first programmer was the daughter of a mad poet", "NASA still operates some projects on programming from the 1970’s", "Computer was a job title, and the first programmers were women"];
 
 let randomizeArray = Math.floor(Math.random() * 5);
-console.log(randomizeArray);
+
+let randomIndex = Math.floor(Math.random() * 5);
+
+switch(randomizeArray){
+    case 0:
+        console.log(`Here is your daily motivation: ${motivationalArr[randomIndex]}`);
+        break;
+    case 1:
+        console.log(`Your daily fun fact is: ${factArr[randomIndex]}`);
+        break;
+    case 2:
+        console.log(`The joke of the day is....${jokeArr[randomIndex]}`);
+        break;
+    case 3:
+        console.log(`I, the magical deity, bestow upon you this fortune: ${fortuneArr[randomIndex]}`);
+        break;
+    case 4:
+        console.log(`Here is a fact about coding: ${codingArr[randomIndex]}`);
+        break;
+    default:
+        console.log('Wow, there was an error *mind blown*');
+}
