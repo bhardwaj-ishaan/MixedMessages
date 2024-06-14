@@ -3,3 +3,6 @@ const factArr = ['Platypuses sweat milk.', 'Bananas glow blue under black lights
 const jokeArr = ["Justice is a dish best served cold. Otherwise, it's just water.", "How do you make holy water? You boil the hell out of it.", "What's the biggest fear of Zeus? Child support.", 'A horse walks into a diner. The host says, “Hey!” The horse says, “You read my mind.”', "What's worse than raining cats and dogs? Hailing taxis."];
 const fortuneArr = ["A dream you have will come true.", "Hidden in a valley beside an open stream- This will be the type of place where you will find your dream.", "You learn from your mistakes... You will learn a lot today.", "A very attractive person has a message for you."];
 const codingArr = ["Coding has over 700 languages.", "Coding will soon be as important as reading", "The first programmer was the daughter of a mad poet", "NASA still operates some projects on programming from the 1970’s", "Computer was a job title, and the first programmers were women"];
+
+let randomizeArray = Math.floor(Math.random() * 5);
+console.log(randomizeArray);
